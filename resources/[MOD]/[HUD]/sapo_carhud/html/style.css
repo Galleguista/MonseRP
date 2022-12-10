@@ -1,0 +1,193 @@
+* {
+    font-family: 'fuente';
+    color: white;
+    src: url('digital-7.ttf');
+}
+
+@font-face {
+    font-family: fuente;
+    src: url('digital-7.ttf');
+}
+
+.todo {
+    font-family: 'fuente';
+    color: white;
+    overflow: hidden;
+    font-family: fuente;
+    width: 225px;
+    height: 110px;
+    max-height: 120px;
+    background-color: rgba(0, 0, 0, 0.471);
+    border-radius: 4px;
+    box-shadow: #ffffff80 0px 0px 2.5px;
+    margin-left: 45%;
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 200px;
+    opacity: 0;
+    -webkit-animation: paraDerecha 1s forwards;
+    animation: paraDerecha 1s forwards;
+}
+
+.todo.isInCoche {
+    -webkit-animation: paraIzqueirda 1s forwards;
+    animation: paraIzqueirda 1s forwards;
+}
+
+#fuelicon {
+    color: white;
+    float: left;
+    margin-top: 26px;
+    margin-left: 9px;
+}
+
+.fueltext {
+    float: left;
+    margin-top: 50px;
+    margin-left: -17px;
+    color: white;
+}
+
+#llaveicon {
+    fill: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 66px;
+}
+
+.parpadeo {
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+.velo {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 6vh;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.km {
+    font-weight: 400;
+    font-size: 6vh;
+    left: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 38px;
+}
+
+.marchatext {
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 35px;
+}
+
+.marcha {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 75px;
+    font-weight: 100;
+    font-size: 2vh;
+}
+
+.progress {
+    color: white;
+    width: 400px;
+    position: absolute;
+    margin-left: 4px;
+    min-height: 420px;
+    margin-top: 7px;
+}
+
+.progress header {
+    margin-left: 2.5%;
+    margin-bottom: 25%;
+}
+
+.progress .bar {
+    position: absolute;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    margin-left: 4%;
+    width: 49%;
+}
+
+.progress .bar .percent-rpm {
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    border-radius: 10px;
+    height: 3px;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+
+.progress-marcha {
+    position: absolute;
+    width: 410px;
+    margin-top: 5px;
+}
+
+@-webkit-keyframes paraIzqueirda {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes paraIzqueirda {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 20px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes paraDerecha {
+    0% {
+        bottom: 20px;
+        opacity: 1;
+    }
+    100% {
+        bottom: 25px;
+        opacity: 0;
+    }
+}
+
+@keyframes paraDerecha {
+    0% {
+        bottom: 20px;
+        opacity: 1;
+    }
+    100% {
+        bottom: 25px;
+        opacity: 0;
+    }
+}

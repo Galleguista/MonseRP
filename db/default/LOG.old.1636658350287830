@@ -1,0 +1,281 @@
+2021/11/11-19:34:33.647622 4ffc RocksDB version: 6.10.0
+2021/11/11-19:34:33.647688 4ffc Git sha rocksdb_build_git_sha:@@GIT_SHA@@
+2021/11/11-19:34:33.647702 4ffc Compile date Feb  8 2021
+2021/11/11-19:34:33.647969 4ffc DB SUMMARY
+2021/11/11-19:34:33.648585 4ffc CURRENT file:  CURRENT
+2021/11/11-19:34:33.648600 4ffc IDENTITY file:  IDENTITY
+2021/11/11-19:34:33.648760 4ffc MANIFEST file:  MANIFEST-000082 size: 261 Bytes
+2021/11/11-19:34:33.648776 4ffc SST files in C:\Users\garci\Desktop\tonibase_drift\db\default dir, Total Num: 2, files: 000079.sst 000081.sst 
+2021/11/11-19:34:33.648787 4ffc Write Ahead Log file in C:\Users\garci\Desktop\tonibase_drift\db\default: 000083.log size: 3858 ; 
+2021/11/11-19:34:33.648797 4ffc                         Options.error_if_exists: 0
+2021/11/11-19:34:33.648863 4ffc                       Options.create_if_missing: 1
+2021/11/11-19:34:33.648870 4ffc                         Options.paranoid_checks: 1
+2021/11/11-19:34:33.648873 4ffc                                     Options.env: 000001EC353AAB30
+2021/11/11-19:34:33.648878 4ffc                                      Options.fs: Legacy File System
+2021/11/11-19:34:33.648881 4ffc                                Options.info_log: 000001EC357268C0
+2021/11/11-19:34:33.648884 4ffc                Options.max_file_opening_threads: 16
+2021/11/11-19:34:33.648888 4ffc                              Options.statistics: 0000000000000000
+2021/11/11-19:34:33.648891 4ffc                               Options.use_fsync: 0
+2021/11/11-19:34:33.648894 4ffc                       Options.max_log_file_size: 0
+2021/11/11-19:34:33.648897 4ffc                  Options.max_manifest_file_size: 1073741824
+2021/11/11-19:34:33.648900 4ffc                   Options.log_file_time_to_roll: 0
+2021/11/11-19:34:33.648903 4ffc                       Options.keep_log_file_num: 10
+2021/11/11-19:34:33.648906 4ffc                    Options.recycle_log_file_num: 0
+2021/11/11-19:34:33.648909 4ffc                         Options.allow_fallocate: 1
+2021/11/11-19:34:33.648912 4ffc                        Options.allow_mmap_reads: 0
+2021/11/11-19:34:33.648915 4ffc                       Options.allow_mmap_writes: 0
+2021/11/11-19:34:33.648918 4ffc                        Options.use_direct_reads: 0
+2021/11/11-19:34:33.648921 4ffc                        Options.use_direct_io_for_flush_and_compaction: 0
+2021/11/11-19:34:33.648924 4ffc          Options.create_missing_column_families: 0
+2021/11/11-19:34:33.648927 4ffc                              Options.db_log_dir: 
+2021/11/11-19:34:33.648930 4ffc                                 Options.wal_dir: C:\Users\garci\Desktop\tonibase_drift\db\default
+2021/11/11-19:34:33.648933 4ffc                Options.table_cache_numshardbits: 6
+2021/11/11-19:34:33.648936 4ffc                      Options.max_subcompactions: 1
+2021/11/11-19:34:33.648939 4ffc                         Options.WAL_ttl_seconds: 0
+2021/11/11-19:34:33.648942 4ffc                       Options.WAL_size_limit_MB: 0
+2021/11/11-19:34:33.648945 4ffc                        Options.max_write_batch_group_size_bytes: 1048576
+2021/11/11-19:34:33.648948 4ffc             Options.manifest_preallocation_size: 4194304
+2021/11/11-19:34:33.648951 4ffc                     Options.is_fd_close_on_exec: 1
+2021/11/11-19:34:33.648954 4ffc                   Options.advise_random_on_open: 1
+2021/11/11-19:34:33.648957 4ffc                    Options.db_write_buffer_size: 0
+2021/11/11-19:34:33.648960 4ffc                    Options.write_buffer_manager: 000001EC356E9AF0
+2021/11/11-19:34:33.648963 4ffc         Options.access_hint_on_compaction_start: 1
+2021/11/11-19:34:33.648966 4ffc  Options.new_table_reader_for_compaction_inputs: 0
+2021/11/11-19:34:33.648969 4ffc           Options.random_access_max_buffer_size: 1048576
+2021/11/11-19:34:33.648972 4ffc                      Options.use_adaptive_mutex: 0
+2021/11/11-19:34:33.648975 4ffc                            Options.rate_limiter: 0000000000000000
+2021/11/11-19:34:33.648978 4ffc     Options.sst_file_manager.rate_bytes_per_sec: 0
+2021/11/11-19:34:33.648981 4ffc                       Options.wal_recovery_mode: 2
+2021/11/11-19:34:33.649006 4ffc                  Options.enable_thread_tracking: 0
+2021/11/11-19:34:33.649011 4ffc                  Options.enable_pipelined_write: 0
+2021/11/11-19:34:33.649014 4ffc                  Options.unordered_write: 0
+2021/11/11-19:34:33.649017 4ffc         Options.allow_concurrent_memtable_write: 1
+2021/11/11-19:34:33.649020 4ffc      Options.enable_write_thread_adaptive_yield: 1
+2021/11/11-19:34:33.649023 4ffc             Options.write_thread_max_yield_usec: 100
+2021/11/11-19:34:33.649026 4ffc            Options.write_thread_slow_yield_usec: 3
+2021/11/11-19:34:33.649029 4ffc                               Options.row_cache: None
+2021/11/11-19:34:33.649032 4ffc                              Options.wal_filter: None
+2021/11/11-19:34:33.649035 4ffc             Options.avoid_flush_during_recovery: 0
+2021/11/11-19:34:33.649038 4ffc             Options.allow_ingest_behind: 0
+2021/11/11-19:34:33.649041 4ffc             Options.preserve_deletes: 0
+2021/11/11-19:34:33.649043 4ffc             Options.two_write_queues: 0
+2021/11/11-19:34:33.649046 4ffc             Options.manual_wal_flush: 0
+2021/11/11-19:34:33.649049 4ffc             Options.atomic_flush: 0
+2021/11/11-19:34:33.649052 4ffc             Options.avoid_unnecessary_blocking_io: 0
+2021/11/11-19:34:33.649055 4ffc                 Options.persist_stats_to_disk: 0
+2021/11/11-19:34:33.649058 4ffc                 Options.write_dbid_to_manifest: 0
+2021/11/11-19:34:33.649061 4ffc                 Options.log_readahead_size: 0
+2021/11/11-19:34:33.649064 4ffc                 Options.file_checksum_gen_factory: Unknown
+2021/11/11-19:34:33.649067 4ffc                 Options.best_efforts_recovery: 0
+2021/11/11-19:34:33.649070 4ffc             Options.max_background_jobs: 2
+2021/11/11-19:34:33.649073 4ffc             Options.max_background_compactions: -1
+2021/11/11-19:34:33.649076 4ffc             Options.avoid_flush_during_shutdown: 0
+2021/11/11-19:34:33.649079 4ffc           Options.writable_file_max_buffer_size: 1048576
+2021/11/11-19:34:33.649082 4ffc             Options.delayed_write_rate : 16777216
+2021/11/11-19:34:33.649085 4ffc             Options.max_total_wal_size: 0
+2021/11/11-19:34:33.649088 4ffc             Options.delete_obsolete_files_period_micros: 21600000000
+2021/11/11-19:34:33.649091 4ffc                   Options.stats_dump_period_sec: 600
+2021/11/11-19:34:33.649094 4ffc                 Options.stats_persist_period_sec: 600
+2021/11/11-19:34:33.649097 4ffc                 Options.stats_history_buffer_size: 1048576
+2021/11/11-19:34:33.649100 4ffc                          Options.max_open_files: -1
+2021/11/11-19:34:33.649103 4ffc                          Options.bytes_per_sync: 0
+2021/11/11-19:34:33.649106 4ffc                      Options.wal_bytes_per_sync: 0
+2021/11/11-19:34:33.649109 4ffc                   Options.strict_bytes_per_sync: 0
+2021/11/11-19:34:33.649112 4ffc       Options.compaction_readahead_size: 0
+2021/11/11-19:34:33.649115 4ffc                  Options.max_background_flushes: -1
+2021/11/11-19:34:33.649118 4ffc Compression algorithms supported:
+2021/11/11-19:34:33.649124 4ffc 	kZSTD supported: 0
+2021/11/11-19:34:33.649127 4ffc 	kSnappyCompression supported: 0
+2021/11/11-19:34:33.649130 4ffc 	kBZip2Compression supported: 0
+2021/11/11-19:34:33.649133 4ffc 	kZlibCompression supported: 1
+2021/11/11-19:34:33.649136 4ffc 	kLZ4Compression supported: 1
+2021/11/11-19:34:33.649139 4ffc 	kXpressCompression supported: 0
+2021/11/11-19:34:33.649142 4ffc 	kLZ4HCCompression supported: 1
+2021/11/11-19:34:33.649145 4ffc 	kZSTDNotFinalCompression supported: 0
+2021/11/11-19:34:33.649150 4ffc Fast CRC32 supported: Not supported on x86
+2021/11/11-19:34:33.653764 4ffc [db\version_set.cc:4515] Recovering from manifest file: C:\Users\garci\Desktop\tonibase_drift\db\default/MANIFEST-000082
+2021/11/11-19:34:33.656996 4ffc [db\column_family.cc:579] --------------- Options for column family [default]:
+2021/11/11-19:34:33.657005 4ffc               Options.comparator: leveldb.BytewiseComparator
+2021/11/11-19:34:33.657008 4ffc           Options.merge_operator: None
+2021/11/11-19:34:33.657032 4ffc        Options.compaction_filter: None
+2021/11/11-19:34:33.657037 4ffc        Options.compaction_filter_factory: None
+2021/11/11-19:34:33.657040 4ffc         Options.memtable_factory: SkipListFactory
+2021/11/11-19:34:33.657043 4ffc            Options.table_factory: BlockBasedTable
+2021/11/11-19:34:33.657066 4ffc            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000001EC2772B490)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000001EC3578B550
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 4
+  enable_index_compression: 1
+  block_align: 0
+2021/11/11-19:34:33.657070 4ffc        Options.write_buffer_size: 67108864
+2021/11/11-19:34:33.657073 4ffc  Options.max_write_buffer_number: 2
+2021/11/11-19:34:33.657076 4ffc          Options.compression: LZ4
+2021/11/11-19:34:33.657079 4ffc                  Options.bottommost_compression: Disabled
+2021/11/11-19:34:33.657082 4ffc       Options.prefix_extractor: nullptr
+2021/11/11-19:34:33.657085 4ffc   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2021/11/11-19:34:33.657088 4ffc             Options.num_levels: 7
+2021/11/11-19:34:33.657091 4ffc        Options.min_write_buffer_number_to_merge: 1
+2021/11/11-19:34:33.657094 4ffc     Options.max_write_buffer_number_to_maintain: 0
+2021/11/11-19:34:33.657097 4ffc     Options.max_write_buffer_size_to_maintain: 0
+2021/11/11-19:34:33.657100 4ffc            Options.bottommost_compression_opts.window_bits: -14
+2021/11/11-19:34:33.657103 4ffc                  Options.bottommost_compression_opts.level: 32767
+2021/11/11-19:34:33.657106 4ffc               Options.bottommost_compression_opts.strategy: 0
+2021/11/11-19:34:33.657109 4ffc         Options.bottommost_compression_opts.max_dict_bytes: 0
+2021/11/11-19:34:33.657112 4ffc         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2021/11/11-19:34:33.657115 4ffc         Options.bottommost_compression_opts.parallel_threads: 1
+2021/11/11-19:34:33.657118 4ffc                  Options.bottommost_compression_opts.enabled: false
+2021/11/11-19:34:33.657121 4ffc            Options.compression_opts.window_bits: -14
+2021/11/11-19:34:33.657124 4ffc                  Options.compression_opts.level: 32767
+2021/11/11-19:34:33.657127 4ffc               Options.compression_opts.strategy: 0
+2021/11/11-19:34:33.657130 4ffc         Options.compression_opts.max_dict_bytes: 0
+2021/11/11-19:34:33.657133 4ffc         Options.compression_opts.zstd_max_train_bytes: 0
+2021/11/11-19:34:33.657135 4ffc         Options.compression_opts.parallel_threads: 1
+2021/11/11-19:34:33.657139 4ffc                  Options.compression_opts.enabled: false
+2021/11/11-19:34:33.657141 4ffc      Options.level0_file_num_compaction_trigger: 4
+2021/11/11-19:34:33.657144 4ffc          Options.level0_slowdown_writes_trigger: 20
+2021/11/11-19:34:33.657147 4ffc              Options.level0_stop_writes_trigger: 36
+2021/11/11-19:34:33.657150 4ffc                   Options.target_file_size_base: 67108864
+2021/11/11-19:34:33.657153 4ffc             Options.target_file_size_multiplier: 1
+2021/11/11-19:34:33.657156 4ffc                Options.max_bytes_for_level_base: 268435456
+2021/11/11-19:34:33.657159 4ffc Options.level_compaction_dynamic_level_bytes: 0
+2021/11/11-19:34:33.657165 4ffc          Options.max_bytes_for_level_multiplier: 10.000000
+2021/11/11-19:34:33.657169 4ffc Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2021/11/11-19:34:33.657172 4ffc Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2021/11/11-19:34:33.657175 4ffc Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2021/11/11-19:34:33.657178 4ffc Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2021/11/11-19:34:33.657181 4ffc Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2021/11/11-19:34:33.657184 4ffc Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2021/11/11-19:34:33.657187 4ffc Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2021/11/11-19:34:33.657190 4ffc       Options.max_sequential_skip_in_iterations: 8
+2021/11/11-19:34:33.657193 4ffc                    Options.max_compaction_bytes: 1677721600
+2021/11/11-19:34:33.657196 4ffc                        Options.arena_block_size: 8388608
+2021/11/11-19:34:33.657199 4ffc   Options.soft_pending_compaction_bytes_limit: 68719476736
+2021/11/11-19:34:33.657202 4ffc   Options.hard_pending_compaction_bytes_limit: 274877906944
+2021/11/11-19:34:33.657205 4ffc       Options.rate_limit_delay_max_milliseconds: 100
+2021/11/11-19:34:33.657208 4ffc                Options.disable_auto_compactions: 0
+2021/11/11-19:34:33.657212 4ffc                        Options.compaction_style: kCompactionStyleLevel
+2021/11/11-19:34:33.657215 4ffc                          Options.compaction_pri: kMinOverlappingRatio
+2021/11/11-19:34:33.657218 4ffc Options.compaction_options_universal.size_ratio: 1
+2021/11/11-19:34:33.657221 4ffc Options.compaction_options_universal.min_merge_width: 2
+2021/11/11-19:34:33.657224 4ffc Options.compaction_options_universal.max_merge_width: 4294967295
+2021/11/11-19:34:33.657227 4ffc Options.compaction_options_universal.max_size_amplification_percent: 200
+2021/11/11-19:34:33.657230 4ffc Options.compaction_options_universal.compression_size_percent: -1
+2021/11/11-19:34:33.657233 4ffc Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2021/11/11-19:34:33.657236 4ffc Options.compaction_options_fifo.max_table_files_size: 1073741824
+2021/11/11-19:34:33.657239 4ffc Options.compaction_options_fifo.allow_compaction: 0
+2021/11/11-19:34:33.657243 4ffc                   Options.table_properties_collectors: 
+2021/11/11-19:34:33.657246 4ffc                   Options.inplace_update_support: 0
+2021/11/11-19:34:33.657249 4ffc                 Options.inplace_update_num_locks: 10000
+2021/11/11-19:34:33.657252 4ffc               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2021/11/11-19:34:33.657256 4ffc               Options.memtable_whole_key_filtering: 0
+2021/11/11-19:34:33.657259 4ffc   Options.memtable_huge_page_size: 0
+2021/11/11-19:34:33.657262 4ffc                           Options.bloom_locality: 0
+2021/11/11-19:34:33.657264 4ffc                    Options.max_successive_merges: 0
+2021/11/11-19:34:33.657267 4ffc                Options.optimize_filters_for_hits: 0
+2021/11/11-19:34:33.657270 4ffc                Options.paranoid_file_checks: 0
+2021/11/11-19:34:33.657273 4ffc                Options.force_consistency_checks: 0
+2021/11/11-19:34:33.657276 4ffc                Options.report_bg_io_stats: 0
+2021/11/11-19:34:33.657279 4ffc                               Options.ttl: 2592000
+2021/11/11-19:34:33.657282 4ffc          Options.periodic_compaction_seconds: 0
+2021/11/11-19:34:33.662952 4ffc [db\version_set.cc:4672] Recovered from manifest file:C:\Users\garci\Desktop\tonibase_drift\db\default/MANIFEST-000082 succeeded,manifest_file_number is 82, next_file_number is 84, last_sequence is 767, log_number is 77,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2021/11/11-19:34:33.662962 4ffc [db\version_set.cc:4681] Column family [default] (ID 0), log number is 77
+2021/11/11-19:34:33.666161 4ffc EVENT_LOG_v1 {"time_micros": 1636655673666156, "job": 1, "event": "recovery_started", "log_files": [83]}
+2021/11/11-19:34:33.666422 4ffc [db\db_impl\db_impl_open.cc:774] Recovering log #83 mode 2
+2021/11/11-19:34:33.673753 4ffc EVENT_LOG_v1 {"time_micros": 1636655673673733, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 84, "file_size": 1217, "table_properties": {"data_size": 422, "index_size": 74, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 0, "raw_key_size": 993, "raw_average_key_size": 62, "raw_value_size": 81, "raw_average_value_size": 5, "num_data_blocks": 1, "num_entries": 16, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "LZ4", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1636655673, "oldest_key_time": 3, "file_creation_time": 0}}
+2021/11/11-19:34:33.673789 4ffc [db\version_set.cc:3920] Creating manifest 85
+2021/11/11-19:34:33.676542 4ffc EVENT_LOG_v1 {"time_micros": 1636655673676538, "job": 1, "event": "recovery_finished"}
+2021/11/11-19:34:33.678026 4ffc [file\delete_scheduler.cc:73] Deleted file C:\Users\garci\Desktop\tonibase_drift\db\default/000083.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2021/11/11-19:34:33.678040 4ffc [db\db_impl\db_impl_files.cc:552] [JOB 2] Delete info log file C:\Users\garci\Desktop\tonibase_drift\db\default//LOG.old.1636410769213062
+2021/11/11-19:34:33.688820 4ffc [db\db_impl\db_impl_open.cc:1576] SstFileManager instance 000001EC27348EB0
+2021/11/11-19:34:33.688866 268c (Original Log Time 2021/11/11-19:34:33.688850) [db\db_impl\db_impl_compaction_flush.cc:2671] Compaction nothing to do
+2021/11/11-19:34:33.689331 4ffc DB pointer 000001EC275E1340
+2021/11/11-19:34:33.689828 3478 [db\db_impl\db_impl.cc:854] ------- DUMPING STATS -------
+2021/11/11-19:34:33.689838 3478 [db\db_impl\db_impl.cc:855] 
+** DB Stats **
+Uptime(secs): 0.0 total, 0.0 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      2/0    1.96 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+  L1      1/0    1.33 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum      3/0    3.29 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      2/0    1.96 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+  L1      1/0    1.33 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Sum      3/0    3.29 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.3      0.00              0.00         1    0.004       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2021/11/11-19:43:35.378877 36f0 [db\db_impl\db_impl.cc:401] Shutdown: canceling all background work
+2021/11/11-19:43:35.381256 36f0 [db\db_impl\db_impl.cc:577] Shutdown complete

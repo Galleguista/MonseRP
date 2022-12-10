@@ -1,0 +1,274 @@
+:root {
+    --red: rgb(255, 65, 59, 0.9);
+    --white:  rgba(255, 255, 255, 0.9);
+    --black:  rgb(0, 0, 0);
+}
+
+html {
+    overflow: hidden;
+    background-color: transparent !important;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-family: system-ui;
+    font-size: 0.7vw;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+}
+
+.ref {
+    display: none;
+}
+
+.separator {
+    background-color: #999999;
+    width: 0.05vw;
+    margin-left: 0.523vw;
+    margin-right: 0.523vw;
+}
+
+.separator.white {
+    background-color: white;
+}
+
+.contenedor-medium {
+    width: 16vw;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+}
+
+.contenedor-important {
+    width: 100%;
+    height: 10.42vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.big {
+    width: 46.9vw;
+    height: 2.61vw;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.big img {
+    margin: auto;
+    margin-right: 1.04vw;
+    height: 80%;
+}
+
+.medium {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    min-height: 4.3vw;
+    margin-bottom: 1.04vw;
+    padding: 0.523vw;
+    padding-right: 0.8vw;
+    right: -100%;
+    border-radius: 0.4vw;
+}
+
+.small {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    min-height: 2.085vw;
+    right: 0;
+    margin-bottom: 1.02vw;
+    padding: 0.523vw;
+    right: -100%;
+    border-radius: 0.4vw;
+}
+
+.small.ok {
+    background-color: rgb(21, 139, 21);
+    color: white;
+    font-weight: 500;
+}
+
+.small.error {
+    background-color: var(--red);
+    color: white;
+    font-weight: 500;
+}
+
+.small.info {
+    background-color: var(--black);
+    color: white;
+    font-weight: 500;
+}
+
+.medium.ok {
+    background-color: var(--white);
+}
+
+.medium.error {
+    background-color: var(--red);
+    color: white;
+}
+
+.medium.info {
+    background-color: var(--black);
+    color: white;
+}
+
+.medium.sancion {
+    background-color: var(--red);
+    color: white;
+}
+
+.medium.warning {
+    background-color: var(--white);
+}
+
+.medium.broadcast {
+    background-color: var(--white);
+}
+
+.big.broadcast-important {
+    background-color: var(--white);
+}
+
+.medium.broadcast img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+}
+
+.medium.info img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+    /* filter: invert(100%) */
+}
+
+.medium.sancion img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+    /* filter: invert(100%) */ 
+}
+
+.medium.error img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+    /* filter: invert(100%) */
+}
+
+.medium.ok img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+}
+
+.medium.warning img {
+    height: 1.5vw;
+    padding: 0.523vw;
+    align-self: center;
+}
+
+.big .title {
+    margin: auto;
+    margin-left: 0;
+    font-size: 1.08vw;
+    font-weight: bold;
+}
+
+.big .text {
+    margin: 0;
+    font-size: 1.02vw;
+    width: fit-content;
+    white-space: nowrap;
+    position: relative;
+    right: -100%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.medium .text {
+    margin-left: 0.26vw;
+    align-self: center;
+}
+
+.medium .title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.small .text {
+    align-self: center;
+}
+
+.small.ok img {
+    width: 1.05vw;
+    height: 1.05vw;
+    align-self: center;
+    /* filter: invert(100%) */
+}
+
+.small.info img {
+    width: 1.05vw;
+    height: 1.05vw;
+    align-self: center;
+    /* filter: invert(100%) */
+}
+
+.small.error img {
+    width: 1.05vw;
+    height: 1.05vw;
+    align-self: center;
+    /* filter: invert(100%) */
+}
+
+.big .title {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-left: 0;
+    letter-spacing: .15em;
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 10vw }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.progressbar {
+    width: 95%;
+    height: 0.1vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    margin-bottom: 0.1vw;
+}

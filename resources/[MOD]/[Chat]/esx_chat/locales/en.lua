@@ -1,0 +1,18 @@
+Locales['en'] = {
+  ['oop_prefix'] = 'OOP | %s',
+  ['twt_help'] = 'Enviar un twt',
+  ['pid_prefix'] = 'Pedir id | %s', 
+  ['twt_prefix'] = '^0[^4Twitter^0] (^5@%s^0)',
+  ['me_help'] = 'personal action',
+  ['me_prefix'] = 'me | %s',
+  ['pol_prefix'] = '👮🏽 | %s',
+  ['rpol_prefix'] = '👮 [LSPD] %s',
+  ['rems_prefix'] = '🚑 [LSMC] %s',
+  ['rpolems_prefix'] = 'LSMC & LSPD | %s',
+  ['a_prefix'] = 'Ayuda | %s',
+  ['do_help'] = 'RP information',
+  ['do_prefix'] = 'do | %s',
+  ['generic_argument_name'] = 'message',
+  ['msg_prefix'] = 'PRIVADO | [%s',
+  ['generic_argument_help'] = 'the message',
+}
